@@ -6,7 +6,7 @@ COMPUTE nonConformeCont1=0.
 COMPUTE nonConformeCont2=0.
 COMPUTE nonConformeCat1=~ANY(var1,1,2,3).
 * COMPUTE nonConformeCat2=~ANY(varname,1,2,3).
-COMPUTE nonConformeCont1=~RANGE(var2,10,15).
+COMPUTE nonConformeCont1=~RANGE(var3,10,15).
 * COMPUTE nonConformeCont2=~RANGE(varname,10,15).
 EXECUTE.
 FILTER OFF.
